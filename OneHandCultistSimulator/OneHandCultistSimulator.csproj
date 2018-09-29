@@ -31,8 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\HarmonyPatcher\net35\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\Programs\Steam\steamapps\common\Cultist Simulator\cultistsimulator_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoMod">
+      <HintPath>..\PartialityLauncher\bin\MonoMod.exe</HintPath>
     </Reference>
     <Reference Include="Partiality">
       <HintPath>..\Partiality.dll</HintPath>
@@ -48,9 +54,12 @@
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\Programs\Steam\steamapps\common\Cultist Simulator\cultistsimulator_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\Programs\Steam\steamapps\common\Cultist Simulator\cultistsimulator_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="OneHand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
