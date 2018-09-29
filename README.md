@@ -16,3 +16,5 @@ A mod for the game Cultist Simulator by Weather Factory which lets you play with
 
 
 Cultist Simulator is a work by Weather Factory and I have no affiliation with them. I just think the game is cool and I wanted to play the game leaning back in my chair.
+
+Credit to [Harmony](https://github.com/pardeike/Harmony/wiki) for their awesome patcher tools.
